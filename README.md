@@ -6,7 +6,7 @@
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: major content, attribute control, and prompt complexity.
 
 ## Data Format and Statistics
-FETV contains 619 text prompts with corresponding category labels based on the multi-aspect categorization system.
+FETV contains 619 data instances, which are all available in the file `fetv_data.json`.
 
 ## License
 This dataset is under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
