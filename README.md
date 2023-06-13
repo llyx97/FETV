@@ -4,7 +4,7 @@
 
 ## Overview
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: major content, attribute control, and prompt complexity.
-![](./Figures/categorization.jpg)
+![](./Figures/categorization.pdf)
 
 ## Data Statistics
 FETV contains 619 text prompts. The data distributions over different categories are as follows
