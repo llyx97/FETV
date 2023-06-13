@@ -6,7 +6,24 @@
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: major content, attribute control, and prompt complexity.
 
 ## Data Format and Statistics
-FETV contains 619 data instances, which are all available in the file `fetv_data.json`.
+FETV contains 619 data instances, which are all available in the file `fetv_data.json`. Each line is a data instance, which is formatted as:
+```
+{
+  "video_id": 1006807024, 
+  "prompt": "A mountain stream", 
+  "major content": {
+       "spatial": ["scenery & natural objects"], 
+       "temporal": ["fluid motions"]
+     }, 
+  "attribute control": {
+      "spatial": null, 
+      "temporal": null
+    }, 
+  "prompt complexity": ["simple"], 
+  "source": "WebVid", 
+  "video_url": "https://ak.picdn.net/shutterstock/videos/1006807024/preview/stock-footage-a-mountain-stream.mp4"
+  }
+```
 
 ## License
 This dataset is under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
