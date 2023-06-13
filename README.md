@@ -5,8 +5,11 @@
 ## Overview
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: major content, attribute control, and prompt complexity.
 
-## Data Format and Statistics
-FETV contains 619 data instances, which are all available in the file `fetv_data.json`. Each line is a data instance, which is formatted as:
+## Data Statistics
+FETV contains 619 text prompts. The data distributions over different categories are as follows
+
+## Data Format
+All FETV data are all available in the file `fetv_data.json`. Each line is a data instance, which is formatted as:
 ```
 {
   "video_id": 1006807024, 
