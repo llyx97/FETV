@@ -8,7 +8,8 @@ FETV consist of a diverse set of text prompts, categorized based on three orthog
 
 ## Data Statistics
 FETV contains 619 text prompts. The data distributions over different categories are as follows
-![](./Figures/content_attribute_statistics.eps)
+![](./Figures/content_attribute_statistics.png)
+![](./Figures/complexity_statistics.png)
 
 ## Data Format
 All FETV data are all available in the file `fetv_data.json`. Each line is a data instance, which is formatted as:
