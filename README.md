@@ -27,11 +27,13 @@ All FETV data are all available in the file `fetv_data.json`. Each line is a dat
   }
 ```
 ### Data Fields
-* "video_id" is the video identifier in the original dataset where the prompt comes from.
-* "prompt" is the text prompt for text-to-video generation.
-* "major content", "attribute control" and "prompt complexity" are the three orthogonal aspects for categorization.
-* "source" denotes the original dataset where the prompt comes from, which can be "WebVid", "MSRVTT" or "ours".
-* "video_url" is the url link of the reference video.
+* "video_id": The video identifier in the original dataset where the prompt comes from.
+* "prompt": The text prompt for text-to-video generation.
+* "major content": The major content described in the prompt.
+* "attribute control": The attribute that the prompt aims to control.
+* "prompt complexity": The complexity of the prompt.
+* "source": The original dataset where the prompt comes from, which can be "WebVid", "MSRVTT" or "ours".
+* "video_url": The url link of the reference video.
 
 ### Dataset Statistics
 FETV contains 619 text prompts. The data distributions over different categories are as follows (the numbers over categories do not sum up to 619 because a data instance can belong to multiple categories)
