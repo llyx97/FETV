@@ -30,6 +30,11 @@ All FETV data are all available in the file `fetv_data.json`. Each line is a dat
   "video_url": "https://ak.picdn.net/shutterstock/videos/1006807024/preview/stock-footage-a-mountain-stream.mp4"
   }
 ```
+* "video_id" is the video identifier in the original dataset where the prompt comes from.
+* "prompt" is the text prompt for text-to-video generation.
+* "major content", "attribute control" and "prompt complexity" are the three orthogonal aspects for categorization.
+* "source" denotes the original dataset where the prompt comes from, which can be "WebVid", "MSRVTT" or "ours".
+* "video_url" is the url link of the reference video.
 
 ## License
 This dataset is under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
