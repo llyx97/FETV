@@ -11,7 +11,7 @@ FETV consist of a diverse set of text prompts, categorized based on three orthog
 All FETV data are all available in the file `fetv_data.json`. Each line is a data instance, which is formatted as:
 ```
 {
-  "video_id": 1006807024, 
+  "video_id": "1006807024", 
   "prompt": "A mountain stream", 
   "major content": {
        "spatial": ["scenery & natural objects"], 
