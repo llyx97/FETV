@@ -11,7 +11,7 @@ FETV consist of a diverse set of text prompts, categorized based on three orthog
 All FETV data are all available in the file `fetv_data.json`. Each line is a data instance, which is formatted as:
 ```
 {
-  "video_id": 1006807024, 
+  "video_id": "1006807024", 
   "prompt": "A mountain stream", 
   "major content": {
        "spatial": ["scenery & natural objects"], 
@@ -23,7 +23,8 @@ All FETV data are all available in the file `fetv_data.json`. Each line is a dat
     }, 
   "prompt complexity": ["simple"], 
   "source": "WebVid", 
-  "video_url": "https://ak.picdn.net/shutterstock/videos/1006807024/preview/stock-footage-a-mountain-stream.mp4"
+  "video_url": "https://ak.picdn.net/shutterstock/videos/1006807024/preview/stock-footage-a-mountain-stream.mp4",
+  "unusual type": null
   }
 ```
 ### Data Fields
@@ -34,6 +35,7 @@ All FETV data are all available in the file `fetv_data.json`. Each line is a dat
 * "prompt complexity": The complexity of the prompt.
 * "source": The original dataset where the prompt comes from, which can be "WebVid", "MSRVTT" or "ours".
 * "video_url": The url link of the reference video.
+* "unusual type": The type of unusual combination the prompt involves. Only available for data instances with `"source": "ours"`.
 
 ### Dataset Statistics
 FETV contains 619 text prompts. The data distributions over different categories are as follows (the numbers over categories do not sum up to 619 because a data instance can belong to multiple categories)
