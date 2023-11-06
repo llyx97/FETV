@@ -2,7 +2,7 @@
 
 ## Temporal Major Contents
 ### Actions
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | people are dancing                     | ![](assets/temporal_major_content/actions/cogvideo/2.gif)    | ![](assets/temporal_major_content/actions/text2video-zero/2.gif)   | ![](assets/temporal_major_content/actions/videofusion/2.gif) | ![](assets/temporal_major_content/actions/zeroscope/2.gif) | ![](assets/temporal_major_content/actions/gt/2.gif) |
 |                                        | SQ=3, TQ=2  | SQ=3.67, TQ=1.33   |SQ=3.33, TQ=3  | SQ=2.67, TQ=3.33 |  SQ=4.67, TQ=4.67  |
@@ -20,7 +20,7 @@
 |                                        | SQ=3, TQ=3  | SQ=3, TQ=1.67   |SQ=3, TQ=3.67  | SQ=2.33, TQ=2.67 | SQ=4.67, TQ=5  |
 
 ### Kinetic Motions
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | the cars drove fast                                  | ![](assets/temporal_major_content/kinetic_motions/cogvideo/37.gif)  | ![](assets/temporal_major_content/kinetic_motions/text2video-zero/37.gif)   | ![](assets/temporal_major_content/kinetic_motions/videofusion/37.gif) | ![](assets/temporal_major_content/kinetic_motions/zeroscope/37.gif) | ![](assets/temporal_major_content/kinetic_motions/gt/37.gif) |
 |                                                      | SQ=2.67, TQ=3.67 | SQ=4.33, TQ=2.33 |SQ=4.67, TQ=4.67  | SQ=2.67, TQ=2.67 | SQ=4.67, TQ=5  |
@@ -35,7 +35,7 @@
 |                                                      | SQ=3.33, TQ=3 | SQ=3.67, TQ=2   |SQ=3, TQ=3  | SQ=4, TQ=4 | SQ=4.67, TQ=5  |
 
 ### Fluid Motions
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | A mountain stream                                    | ![](assets/temporal_major_content/fluid_motions/cogvideo/23.gif)  | ![](assets/temporal_major_content/fluid_motions/text2video-zero/23.gif)   | ![](assets/temporal_major_content/fluid_motions/videofusion/23.gif) | ![](assets/temporal_major_content/fluid_motions/zeroscope/23.gif) | ![](assets/temporal_major_content/fluid_motions/gt/23.gif) |
 |                                                      | SQ=2.67, TQ=3.33 | SQ=4.67, TQ=1.67 |SQ=4.67, TQ=5  | SQ=4.67, TQ=4.67 | SQ=5, TQ=5  |
@@ -50,7 +50,7 @@
 |                                                      | SQ=3.67, TQ=3.33 | SQ=4, TQ=1.67 |SQ=5, TQ=4.67  | SQ=4, TQ=4.67 | SQ=5, TQ=5  |
 
 ### Light Change
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | Background - sunset landscape beach                              | ![](assets/temporal_major_content/light_change/cogvideo/34.gif)  | ![](assets/temporal_major_content/light_change/text2video-zero/34.gif)   | ![](assets/temporal_major_content/light_change/videofusion/34.gif) | ![](assets/temporal_major_content/light_change/zeroscope/34.gif) | ![](assets/temporal_major_content/light_change/gt/34.gif) |
 |                                                                  | SQ=3.67, TQ=3 | SQ=5, TQ=2.33 |SQ=5, TQ=5  | SQ=5, TQ=5 | SQ=4.67, TQ=4  |
@@ -66,7 +66,7 @@
 
 ## Temporal Attribute Control
 ### Speed
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | Two girls throw stones into the water. slow motion.                 | ![](assets/temporal_attribute/speed/cogvideo/491.gif)  | ![](assets/temporal_attribute/speed/text2video-zero/491.gif)   | ![](assets/temporal_attribute/speed/videofusion/491.gif) | ![](assets/temporal_attribute/speed/zeroscope/491.gif) | ![](assets/temporal_attribute/speed/gt/491.gif) |
 |                                                                     | Alignment=1.67 |  Alignment=3  | Alignment=2.67 | | Alignment=5 |
@@ -81,7 +81,7 @@
 |                                                                     | Alignment=3.33 |  Alignment=5  | Alignment=5 | |  |
 
 ### Motion Direction
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | Flying counter clockwise around a large yacht                            | ![](assets/temporal_attribute/motion_direction/cogvideo/357.gif)  | ![](assets/temporal_attribute/motion_direction/text2video-zero/357.gif)   | ![](assets/temporal_attribute/motion_direction/videofusion/357.gif) | ![](assets/temporal_attribute/motion_direction/zeroscope/357.gif) | ![](assets/temporal_attribute/motion_direction/gt/357.gif) |
 |                                                                          | Alignment=2.33 |  Alignment=1.67  | Alignment=5 | | Alignment=5 |
@@ -96,7 +96,7 @@
 |                                                                                                                           | Alignment=4 |  Alignment=3.33  | Alignment=4.33 | | Alignment=5 |
 
 ### Event Order
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | a guy slices potatoes and then adds them to a bowl of heavy cream   | ![](assets/temporal_attribute/event_order/cogvideo/404.gif)  | ![](assets/temporal_attribute/event_order/text2video-zero/404.gif)   | ![](assets/temporal_attribute/event_order/videofusion/404.gif) | ![](assets/temporal_attribute/event_order/zeroscope/404.gif) | ![](assets/temporal_attribute/event_order/gt/404.gif) |
 |                                                                     | Alignment=2.67 |  Alignment=2  | Alignment=3 | | Alignment=5 |
@@ -110,7 +110,7 @@
 
 ## Spatial Attribute Control
 ### Color
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | someone driving an orange sports car                                | ![](assets/spatial_attribute/color/cogvideo/137.gif)  | ![](assets/spatial_attribute/color/text2video-zero/137.gif)   | ![](assets/spatial_attribute/color/videofusion/137.gif) | ![](assets/spatial_attribute/color/zeroscope/137.gif) | ![](assets/spatial_attribute/color/gt/137.gif) |
 |                                                                     | Alignment=4 |  Alignment=5  | Alignment=4.33 | | Alignment=5 |
@@ -122,7 +122,7 @@
 |                                                                     | Alignment=3 |  Alignment=3.33  | Alignment=4.67 | | Alignment=4 |
 
 ### Camera View
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | a first person view of a man driving a red formula one car          | ![](assets/spatial_attribute/camera_view/cogvideo/62.gif)  | ![](assets/spatial_attribute/camera_view/text2video-zero/62.gif)   | ![](assets/spatial_attribute/camera_view/videofusion/62.gif) | ![](assets/spatial_attribute/camera_view/zeroscope/62.gif) | ![](assets/spatial_attribute/camera_view/gt/62.gif) |
 |                                                                     | Alignment=3  |  Alignment=3  | Alignment=3 | | Alignment=5 |
@@ -137,7 +137,7 @@
 |                                                                     | Alignment=4.33 |  Alignment=4.67  | Alignment=4.33 | | Alignment=4.33 |
 
 ### Quantity
-| Prompt | CogVideo | Text2Video-zero | VideoFusion | ZeroScope | Ground-Truth |
+| Prompt | CogVideo | Text2Video-zero | ModelScopeT2V | ZeroScope | Ground-Truth |
 | ---  | :---: | :---: | :---: | :---: | :---: |
 | Two girls throw stones into the water. slow motion.                 | ![](assets/spatial_attribute/quantity/cogvideo/491.gif)  | ![](assets/spatial_attribute/quantity/text2video-zero/491.gif)   | ![](assets/spatial_attribute/quantity/videofusion/491.gif) | ![](assets/spatial_attribute/quantity/zeroscope/491.gif) | ![](assets/spatial_attribute/quantity/gt/491.gif) |
 |                                                                     | Alignment=1.67 |  Alignment=3  | Alignment=2.67 | | Alignment=5 |
