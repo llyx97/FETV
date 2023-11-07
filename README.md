@@ -97,6 +97,10 @@ We develop automatic metrics for video quality and video-text alignment based on
 **Video quality ranking correlation with human**
 ![](./Figures/video_quality_rank_correlation.jpg)
 
+
+## Todo
+- [ ] Upload evaluation codes.
+
 ## License
 This dataset is under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
