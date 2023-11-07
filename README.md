@@ -1,5 +1,8 @@
 # FETV: A Benchmark for Fine-Grained Evaluation of Open-Domain Text-to-Video Generation
-<a href='https://arxiv.org/abs/2311.01813'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
+<div align="center">
+    <a href='https://arxiv.org/abs/2311.01813'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
+    <a href='https://huggingface.co/datasets/lyx97/FETV'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue'></a>
+</div>
 
 <div>
 <div align="center">
@@ -20,14 +23,14 @@
     
 </div>
 
-This repository contains 
+
+## Overview
 - [The **FETV** benchmark](#fetv)
-- [Manual evaluation results of text-to-video generation models](#manual_eval)
-- [Diagnosis of automatic text-to-video generation metrics](#auto_eval)
+- [Manual evaluation of T2V generation models](#manual_eval)
+- [Diagnosis of automatic T2V generation metrics](#auto_eval)
 
 
 ## <span id="fetv"> FETV Benchmark </span>
-### Overview
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: **major content**, **attribute control**, and **prompt complexity**. This enables fine-grained evaluation of T2V generation models.
 ![](./Figures/categorization.png)
 
