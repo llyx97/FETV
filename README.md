@@ -7,11 +7,13 @@ This repository contains
 
 <a href='https://arxiv.org/abs/2311.01813'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
 
-## Overview
+
+## <span id="fetv"> FETV Benchmark </span>
+
+### Overview
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: **major content**, **attribute control**, and **prompt complexity**. This enables fine-grained evaluation of T2V generation models.
 ![](./Figures/categorization.png)
 
-## <span id="fetv"> FETV Benchmark </span>
 ### Data Instances
 All FETV data are all available in the file `fetv_data.json`. Each line is a data instance, which is formatted as:
 ```
@@ -57,6 +59,8 @@ FETV contains 619 text prompts. The data distributions over different categories
 ![](./Figures/complexity_statistics.png)
 
 ## <span id="manual_eval"> Manual Evaluation of Text-to-video Generation Models </span>
+We evaluate four T2V models, namely CogVideo, Text2Video-zero, ModelScopeT2V and ZeroScope. The generated and ground-truth videos are manually evaluated from four perspectives: **static quality**, **temporal quality**, **overall alignment** and **fine-grained alignment**.
+
 ## <span id="auto_eval"> Diagnosis of Automatic Text-to-video Generation Metrics </span>
 
 ## License
