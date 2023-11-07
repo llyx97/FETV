@@ -59,7 +59,13 @@ FETV contains 619 text prompts. The data distributions over different categories
 ![](./Figures/complexity_statistics.png)
 
 ## <span id="manual_eval"> Manual Evaluation of Text-to-video Generation Models </span>
-We evaluate four T2V models, namely CogVideo, Text2Video-zero, ModelScopeT2V and ZeroScope. The generated and ground-truth videos are manually evaluated from four perspectives: **static quality**, **temporal quality**, **overall alignment** and **fine-grained alignment**.
+We evaluate four T2V models, namely [CogVideo](https://github.com/THUDM/CogVideo), [Text2Video-zero](https://github.com/Picsart-AI-Research/Text2Video-Zero), [ModelScopeT2V](https://modelscope.cn/models/damo/text-to-video-synthesis/summary) and [ZeroScope](https://huggingface.co/cerspense/zeroscope_v2_576w). The generated and ground-truth videos are manually evaluated from four perspectives: **static quality**, **temporal quality**, **overall alignment** and **fine-grained alignment**.
+
+**Results of static and temporal video quality**
+![](./Figures/manual_result_quality.jpg)
+
+**Results of video-text alignment**
+![](./Figures/manual_result_alignment.jpg)
 
 ## <span id="auto_eval"> Diagnosis of Automatic Text-to-video Generation Metrics </span>
 
