@@ -1,6 +1,9 @@
 # FETV
 
-**FETV** is a benchmark for **F**ine-grained **E**valuation of open-domain **T**ext-to-**V**ideo generation
+This repository contains 
+- [The **FETV** benchmark for **F**ine-grained **E**valuation of open-domain **T**ext-to-**V**ideo generation](#fetv)
+- [Manual evaluation results of text-to-video generation models](#manual_eval)
+- [Diagnosis of automatic text-to-video generation metrics](#auto_eval)
 
 <a href='https://arxiv.org/abs/2311.01813'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
 
@@ -8,7 +11,7 @@
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: **major content**, **attribute control**, and **prompt complexity**. This enables fine-grained evaluation of T2V generation models.
 ![](./Figures/categorization.png)
 
-## Dataset Structure
+## <span id="fetv"> FETV Benchmark </span>
 ### Data Instances
 All FETV data are all available in the file `fetv_data.json`. Each line is a data instance, which is formatted as:
 ```
@@ -52,6 +55,9 @@ All FETV data are all available in the file `fetv_data.json`. Each line is a dat
 FETV contains 619 text prompts. The data distributions over different categories are as follows (the numbers over categories do not sum up to 619 because a data instance can belong to multiple categories)
 ![](./Figures/content_attribute_statistics.png)
 ![](./Figures/complexity_statistics.png)
+
+## <span id="manual_eval"> Manual Evaluation of Text-to-video Generation Models </span>
+## <span id="auto_eval"> Diagnosis of Automatic Text-to-video Generation Metrics </span>
 
 ## License
 This dataset is under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
