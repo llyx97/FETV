@@ -5,7 +5,7 @@
 <a href='https://arxiv.org/abs/2311.01813'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
 
 ## Overview
-FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: major content, attribute control, and prompt complexity.
+FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: **major content**, **attribute control**, and **prompt complexity**. This enables fine-grained evaluation of T2V generation models.
 ![](./Figures/categorization.png)
 
 ## Dataset Structure
@@ -29,6 +29,15 @@ All FETV data are all available in the file `fetv_data.json`. Each line is a dat
   "unusual type": null
   }
 ```
+**Temporal Major Contents**
+![](./Figures/example_temporal_content.png)
+**Temporal Attributes to Control**
+![](./Figures/example_temporal_attribute.png)
+**Spatial Major Contents**
+![](./Figures/example_spatial_content.png)
+**Spatial Attributes to Control**
+![](./Figures/example_spatial_attribute.png)
+
 ### Data Fields
 * "video_id": The video identifier in the original dataset where the prompt comes from.
 * "prompt": The text prompt for text-to-video generation.
