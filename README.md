@@ -2,6 +2,8 @@
 
 **FETV** is a benchmark for **F**ine-grained **E**valuation of open-domain **T**ext-to-**V**ideo generation
 
+<a href='https://arxiv.org/abs/2311.01813'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
+
 ## Overview
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: major content, attribute control, and prompt complexity.
 ![](./Figures/categorization.png)
@@ -44,3 +46,13 @@ FETV contains 619 text prompts. The data distributions over different categories
 
 ## License
 This dataset is under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+## Citation
+```bibtex
+@article{liu2023fetv,
+  title   = {FETV: A Benchmark for Fine-Grained Evaluation of Open-Domain Text-to-Video Generation},
+  author  = {Yuanxin Liu and Lei Li and Shuhuai Ren and Rundong Gao and Shicheng Li and Sishuo Chen and Xu Sun and Lu Hou},
+  year    = {2023},
+  journal = {arXiv preprint arXiv: 2311.01813}
+}
+```
