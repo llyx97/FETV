@@ -1,15 +1,32 @@
-# FETV
+# FETV: A Benchmark for Fine-Grained Evaluation of Open-Domain Text-to-Video Generation
+<a href='https://arxiv.org/abs/2311.01813'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
+
+<div>
+<div align="center">
+    <a href='https://llyx97.github.io/' target='_blank'>Yuanxin Liu<sup>1</sup></a>&emsp;
+    <a href='https://leili.site/' target='_blank'>Lei Li<sup>1</sup></a>&emsp;
+    <a href='https://renshuhuai-andy.github.io/' target='_blank'>Shuhuai Ren<sup>1</sup></a>&emsp;
+    RunDong Gao<sup>1</sup>&emsp;
+    <a href='https://lscpku.github.io/' target='_blank'>Shicheng Li<sup>1</sup></a>&emsp;
+    </br>
+    <a href='https://pkucss.github.io/' target='_blank'>Sishuo Chen<sup>1</sup></a>&emsp;
+    <a href='https://xusun.org/' target='_blank'>Xu Sun<sup>1</sup></a>&emsp;
+    <a href='https://houlu369.github.io/' target='_blank'>Lu Hou<sup>2</sup></a>
+</div>
+<div>
+<div align="center">
+    <sup>1</sup>Peking University&emsp;
+    <sup>2</sup>Huawei Noah’s Ark Lab
+    
+</div>
 
 This repository contains 
-- [The **FETV** benchmark for **F**ine-grained **E**valuation of open-domain **T**ext-to-**V**ideo generation](#fetv)
+- [The **FETV** benchmark](#fetv)
 - [Manual evaluation results of text-to-video generation models](#manual_eval)
 - [Diagnosis of automatic text-to-video generation metrics](#auto_eval)
 
-<a href='https://arxiv.org/abs/2311.01813'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
-
 
 ## <span id="fetv"> FETV Benchmark </span>
-
 ### Overview
 FETV consist of a diverse set of text prompts, categorized based on three orthogonal aspects: **major content**, **attribute control**, and **prompt complexity**. This enables fine-grained evaluation of T2V generation models.
 ![](./Figures/categorization.png)
@@ -68,6 +85,12 @@ We evaluate four T2V models, namely [CogVideo](https://github.com/THUDM/CogVideo
 ![](./Figures/manual_result_alignment.jpg)
 
 ## <span id="auto_eval"> Diagnosis of Automatic Text-to-video Generation Metrics </span>
+**Video-text alignment ranking correlation with human**
+![](./Figures/alignment_rank_correlation.jpg)
+**Video-text alignment ranking example**
+![](./Figures/alignment_rank_example.jpg)
+**Video quality ranking correlation with human**
+![](./Figures/video_quality_rank_correlation.jpg)
 
 ## License
 This dataset is under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
