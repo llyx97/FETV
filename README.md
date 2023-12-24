@@ -25,7 +25,8 @@
 
 ## News 🚀
 **[2023-12]**
-    - Release evaluation code to [FETV-EVAL](https://github.com/llyx97/FETV-EVAL).
+    - Release evaluation code to [FETV-EVAL](https://github.com/llyx97/FETV-EVAL).    
+    
 **[2023-11]**
     - Update more detailed information about FETV data and evaluation results.
 
