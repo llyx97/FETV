@@ -94,8 +94,13 @@ We evaluate four T2V models, namely [CogVideo](https://github.com/THUDM/CogVideo
 ## <span id="auto_eval"> Diagnosis of Automatic Text-to-video Generation Metrics </span>
 We develop automatic metrics for video quality and video-text alignment based on the [UMT](https://github.com/opengvlab/unmasked_teacher) model, which exhibit higher correlation with humans than existing metrics.
 
+**Video-text alignment evaluation correlation with human**
+![](./Figures/alignment_correlation.jpg)
+
 **Video-text alignment ranking correlation with human**
 ![](./Figures/alignment_rank_correlation.png)
+PS: The above video-text correlation results are slightly different from the previous version because we fixed some bugs in calculating BLIPScore and CLIPscore. The advantage of UMTScore is more obvious in the updated results.
+
 **Video-text alignment ranking example**
 ![](./Figures/alignment_rank_example.jpg)
 **Video quality ranking correlation with human**
