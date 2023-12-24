@@ -23,6 +23,11 @@
     
 </div>
 
+## News 🚀
+**[2023-12]**
+    - Release evaluation code to [FETV-EVAL](https://github.com/llyx97/FETV-EVAL).
+**[2023-11]**
+    - Update more detailed information about FETV data and evaluation results.
 
 ## Overview
 - [The **FETV** benchmark](#fetv)
@@ -99,7 +104,7 @@ We develop automatic metrics for video quality and video-text alignment based on
 
 
 ## Todo
-- [ ] Upload evaluation codes.
+- [x] Upload evaluation codes.
 
 ## License
 This dataset is under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
