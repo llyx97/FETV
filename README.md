@@ -13,7 +13,7 @@
     <a href='https://lscpku.github.io/' target='_blank'>Shicheng Li<sup>1</sup></a>&emsp;
     </br>
     <a href='https://pkucss.github.io/' target='_blank'>Sishuo Chen<sup>1</sup></a>&emsp;
-    <a href='https://xusun.org/' target='_blank'>Xu Sun<sup>1</sup></a>&emsp;
+    <a href='https://xusun26.github.io/' target='_blank'>Xu Sun<sup>1</sup></a>&emsp;
     <a href='https://houlu369.github.io/' target='_blank'>Lu Hou<sup>2</sup></a>
 </div>
 <div>
