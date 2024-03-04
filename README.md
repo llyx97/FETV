@@ -7,7 +7,7 @@
 <div>
 <div align="center">
     <a href='https://llyx97.github.io/' target='_blank'>Yuanxin Liu<sup>1</sup></a>&emsp;
-    <a href='https://leili.site/' target='_blank'>Lei Li<sup>1</sup></a>&emsp;
+    <a href='https://lilei-nlp.github.io/' target='_blank'>Lei Li<sup>1</sup></a>&emsp;
     <a href='https://renshuhuai-andy.github.io/' target='_blank'>Shuhuai Ren<sup>1</sup></a>&emsp;
     RunDong Gao<sup>1</sup>&emsp;
     <a href='https://lscpku.github.io/' target='_blank'>Shicheng Li<sup>1</sup></a>&emsp;
